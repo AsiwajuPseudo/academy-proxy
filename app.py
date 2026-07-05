@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Replace with the URL of the server you want to forward requests to
-TARGET_URL = "http://167.172.123.14:8081"
+TARGET_URL = "http://167.172.123.14:8084"
 
 @app.route('/proxytest', methods=['GET'])
 def proxy_test():
